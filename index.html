@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="name">ПОРТФОЛИО</a>
+            <div class="menu">
+                <a href="portfolio_1.html" class="menu_link">01</a>
+                <a href="portfolio_2.html" class="menu_link">02</a>
+                <a href="portfolio_3.html" class="menu_link">03</a>
+                <a href="portfolio_4.html" class="menu_link">04</a>
+                <a href="portfolio_5.html" class="menu_link">05</a>
+                <a href="portfolio_6.html" class="menu_link">06</a>
+                <a href="portfolio_6_2.html" class="menu_link">06(2)</a>
+                <a href="portfolio_7.html" class="menu_link">07</a>
+                <a href="portfolio_7_2.html" class="menu_link">07(2)</a>
+                <a href="portfolio_8.html" class="menu_link">08</a>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2 class="title">ОБО МНЕ</h2>
+            <div class="about_content">
+                <div class="img_frame">
+                    <img src="images/about.jpg" alt="" class="photo">
+                    <div class="caption">ДАРГЕЛЬ ВАЛЕРИЯ</div>
+                </div>
+                <div class="about_text">
+                    Меня зовут Лера Даргель. Я родилась<br>
+                    и живу в Санкт-Петербурге вот уже 20 лет. Я учусь в СПБГУПТД<br>
+                    на 3 курсе и не могу дождаться диплома. <br>
+                    Я люблю путешествовать и уже побывала в 12 странах. Я бы очень хотела объездить весь мир. <br>
+                    У меня есть собачка и кошечка, которую я подобрала на улице, когда <br>
+                    она была совсем котенком. <br>
+                    В прошлом году я сдала на права и сейчас уже уверенно вожу машину. <br>
+                    Друзья говорят, что я веселая. Так что, если мне комфортно с человеком, <br>
+                    то скучно никогда не будет. <br>
+                    Как-то раз, открывая бутылку шампанского, пробка прилетела мне прямо в глаз. Поэтому
+                    с тех пор к таким бутылкам я больше не притрагиваюсь
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="skills_left">
+                <h2 class="title title_skills">НАВЫКИ</h2>
+                <ul class="skills_list">
+                    <li>Я всегда могу найти подход к заказчику </li>
+                    <li>Уже три года работаю контент-менеджером в творческой студии живописи и парфюмерии.</li>
+                    <li>Вкусно готовлю, но делаю это крайне редко </li>
+                    <li>Вожу машину уже год </li>
+                    <li>Научилась сохранять спокойствие и холодный ум при стрессовых ситуациях</li>
+                </ul>
+            </div>
+            <div class="img_frame frame_border">
+                <img src="images/skills.jpg" alt="" class="photo">
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="container">
+            <div class="img_frame frame_black">
+                <img src="images/experience.jpg" alt="" class="photo">
+            </div>
+            <div class="experience_right">
+                <h2 class="title title_experience">ОПЫТ</h2>
+                <ul class="experience_list">
+                    <li>Как я сказала ранее, вот уже три года я работаю контент-менеджером в творческой студии. Я веду
+                        соц.сети, снимаю контент, оформляю студийные сайты. </li>
+                    <li>Благодаря знакомым я начала выполнять заказы в сфере графического дизайна </li>
+                    <li>Разработала для подруги фирменный стиль ее студии по наращиванию ресниц</li>
+                    <li>Разработала фирменный стиль для парфюмера </li>
+                    <li>Также разработала для студии множество дизайн проектов, один из последних - дизайн евробуклета и
+                        наклеек на эфирные масла из Азербайджана.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="callback">
+        <div class="container">
+            <div class="callback_center">
+                <div class="title callback_title">Связаться</div>
+                <form class="callback_form" id="telegramForm" enctype="multipart/form-data">
+                    <div class="callback_two-line">
+                        <div class="callback_line">
+                            <input type="text" class="callback_text" placeholder="Ваше имя..." id="name" name="name"
+                                required />
+                        </div>
+
+                        <div class="callback_line">
+                            <input type="tel" class="callback_text" placeholder="Ваш номер телефона..." id="phone"
+                                name="phone" required />
+                        </div>
+                    </div>
+
+                    <div class="callback_line">
+                        <textarea id="message" class="callback_text" placeholder="Ваше сообщение..." name="message"
+                            rows="4" required></textarea>
+                    </div>
+                    <div class="callback_line">
+                        <input type="file" class="callback_file" placeholder="" id="file" name="file" />
+                    </div>
+                    <button class="button" type="submit">Отправить</button>
+                </form>
+
+                <div class="callback_notification" id="callback_notification"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a class="footer_link" href="tel:+79211878068">Тел: +7 921 187 80 68</a>
+            <a class="footer_link" href="mailto:lerikd121997@gmail.com">Email: lerikd121997@gmail.com</a>
+            <a class="footer_link" href="t.me/slavakrasniy">Tg: slavakrasniy</a>
+            <a class="footer_link" href="">Behance: Лера Даргель</a>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
